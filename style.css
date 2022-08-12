@@ -60,6 +60,7 @@ button {
 }
 .card1 {
     background-image: url(./300x250x1.jpg);
+    grid-area: 'vid';
 }
 .card2 {
     background-image: url(./300x250x2.jpg);
@@ -171,6 +172,7 @@ a {
     width: 50vw;
     float: right;
     height: 41.73vw;
+   
 }
 .drie {
     display: inline-block;
@@ -248,6 +250,7 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     
+    
   }
   .divs2 {
     width: 25vw;
@@ -285,4 +288,38 @@ a {
   }
   .links2 {
       display: inline-block;
+}
+@media screen and (max-width: 768px) {
+    .top {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+@media screen and (max-width: 768px) {
+    .card1 {
+        display: none;
+    }
+    .card2 {
+        display: none;
+    }
+    .card4 {
+        display: none;
+    }
+    .card5 {
+        display: none;
+    }
+    .card3 {
+       display: none;
+    }
+    .mid {
+        
+    }
+    .top {
+        height: 35vh;
+    }
+}
+@media screen and (min-width: 769px) {
+    .mid {
+        background-image: none;
+    }
 }
