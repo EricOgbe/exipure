@@ -1,3 +1,4 @@
+
 main {
     background-color: #F2EEED;
     text-align: center;
@@ -46,4 +47,25 @@ button {
     border: none;
     color: white;
     cursor: pointer;
+}
+.second {
+    position: relative;
+    top: 93%;
+    right: 30%;
+    padding: 8px;
+    
+}
+@media screen and (max-width: 768px) {
+    .second {
+        position: relative;
+        
+        padding: 2%;
+        right: 5px;
+        
+    }
+}
+a {
+    text-decoration: none;
+    color: white;
+    font: bold;
 }
